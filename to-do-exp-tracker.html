@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do & Expense Tracker</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Productivity App</h1>
+
+        <!-- To-Do List Section -->
+        <div class="todo-section">
+            <h2>To-Do List</h2>
+            <input type="text" id="todo-input" placeholder="Add a task">
+            <button id="add-todo">Add Task</button>
+            <ul id="todo-list"></ul>
+        </div>
+
+        <!-- Expense Tracker Section -->
+        <div class="expense-section">
+            <h2>Expense Tracker</h2>
+            <input type="text" id="expense-name" placeholder="Expense Name">
+            <input type="number" id="expense-amount" placeholder="Amount">
+            <button id="add-expense">Add Expense</button>
+            <ul id="expense-list"></ul>
+            <h3>Total: ₹<span id="total-amount">0</span></h3>
+        </div>
+    </div>
+
+    <script src="new.js"></script>
+</body>
+</html>
